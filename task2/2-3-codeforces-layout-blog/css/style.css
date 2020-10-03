@@ -47,6 +47,7 @@ header nav {
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
     margin-top: 1rem;
+    display: flow-root;
 }
 
 header nav ul {
@@ -137,7 +138,7 @@ body .middle main article .footer .right {
 
 
 main article .footer .left .positive-score {
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #3f9321;
     vertical-align: middle;
 }

@@ -44,6 +44,7 @@ header .enter-or-register-box {
 }
 
 header nav {
+    display: flow-root;
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
     margin-top: 1rem;
@@ -237,6 +238,12 @@ body .middle main .login-form-box .body .button-field {
     text-align: left;
     margin-left: 36%;
 }
+
+body .middle main .login-form-box .body .button-field input {
+    width:35%;
+}
+
+
 
 body .middle main .login-form-box .body .links {
     text-align: right;

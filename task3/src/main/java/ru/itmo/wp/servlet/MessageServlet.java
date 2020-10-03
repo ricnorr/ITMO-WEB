@@ -8,21 +8,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.*;
 
 public class MessageServlet extends HttpServlet {
-
-    private class UserTextPair {
+    private static class UserTextPair implements Serializable {
         private String user;
         private String text;
 
         public UserTextPair(String user, String text) {
             this.user = user;
             this.text = text;
-        }
-
-        public void setUser(String user) {
-            this.user = user;
         }
 
         public void setText(String text) {
@@ -32,11 +28,11 @@ public class MessageServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String uri = new String(request.getRequestURI());
+        String uri = request.getRequestURI();
         HttpSession session = request.getSession();
         List<UserTextPair> list = (List<UserTextPair>)session.getAttribute("list");
         if (list == null) {
-            list = new ArrayList<UserTextPair>();
+            list = new ArrayList<>();
             session.setAttribute("list", list);
         }
         switch (uri) {
