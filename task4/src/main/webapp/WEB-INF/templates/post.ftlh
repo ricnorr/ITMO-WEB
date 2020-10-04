@@ -10,7 +10,7 @@
     <#list source?reverse as p>
         <article>
             <@displayHeader p/>
-            <div class="information">By user: ${c.findBy(users, "id", p.user_id).handle}</div>
+            <div class="information">By user: <@c.userlink c.findBy(users, "id", p.user_id)/></div>
             <@displayBody p border/>
         </article>
     </#list>

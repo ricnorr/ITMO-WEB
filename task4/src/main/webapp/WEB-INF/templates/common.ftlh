@@ -31,9 +31,10 @@
             <a href="#"><img alt="In Russian" title="In Russian"
                              src="/img/ru.png"></a>
         </div>
+
         <div class="enter-or-register-box">
-            <#if user??>
-                <@userlink user/>
+            <#if logged_user_id??>
+                <@nameonly findBy(users,"id",logged_user_id)/>
                 |
                 <a href="/logout">Logout</a>
             <#else>
@@ -69,17 +70,17 @@
     <#import "./post.ftlh" as p>
     <aside>
         <#list posts?reverse as item>
-        <section>
-            <div class="header">
-                Post #${p.displayId(item)}
-            </div>
-            <@p.displayBody item 250/>
-            <div class="footer">
-                <@p.linkById item>
-                    View all
-                </@p.linkById>
-            </div>
-        </section>
+            <section>
+                <div class="header">
+                    Post #${p.displayId(item)}
+                </div>
+                <@p.displayBody item 250/>
+                <div class="footer">
+                    <@p.linkById item>
+                        View all
+                    </@p.linkById>
+                </div>
+            </section>
         </#list>
     </aside>
 </#macro>
@@ -91,7 +92,12 @@
 </#macro>
 
 <#macro userlink user>
-    <a href="/user?handle=${user.handle}">${user.name}</a>
+    <#assign map={"RED" : "red", "BLUE" : "blue", "GREEN" : "green" }>
+    <a style="color:${map[user.color]}" href="/user?handle=${user.handle}">${user.handle}</a>
+</#macro>
+
+<#macro nameonly user>
+    <a href="/user?handle=${user.handle}">${user.handle}</a>
 </#macro>
 
 <#function findBy items key value>
@@ -101,6 +107,8 @@
         </#if>
     </#list>
 </#function>
+
+
 
 <#function findAll items key value>
     <#assign result=[]>

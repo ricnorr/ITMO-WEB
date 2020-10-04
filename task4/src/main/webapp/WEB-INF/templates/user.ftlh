@@ -8,9 +8,9 @@
             <#if id??>
                 <#assign key="id">
                 <#assign value=id>
-                <#elseif handle??>
-                    <#assign key="handle">
-                    <#assign value=handle>
+            <#elseif handle??>
+                <#assign key="handle">
+                <#assign value=handle>
             </#if>
             <#assign u = c.findBy(users, key, value)!/>
             <#if u?has_content>
@@ -61,7 +61,7 @@
             font-weight: bold;
             font-size: 2rem;
             color: #3B5998;
-            " href="http://localhost:8080/user?${key}=${next}"><#nested></a>
+            " href="/user?${key}=${next}"><#nested></a>
     <#else>
         <span style="
             font-weight: bold;
@@ -77,7 +77,7 @@
     </a>
     <ul class="list">
         <li>
-            ${obj.handle}
+            <@c.userlink obj/>
         </li>
         <li>
             ${obj.id}

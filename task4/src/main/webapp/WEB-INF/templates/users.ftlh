@@ -1,4 +1,5 @@
 <#import "./table.ftlh" as t>
+<#import "./common.ftlh" as c>
 
 <@t.table ["user_id", "handle", "name"]>
     <#list users as u>
