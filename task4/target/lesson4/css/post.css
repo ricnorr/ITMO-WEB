@@ -17,39 +17,3 @@ body .middle main article .body {
     border-left: 4px solid #B9B9B9;
     padding-left: 1rem;
 }
-
-body .middle main article ul.attachment {
-    list-style-image: url("../img/paperclip-16x16.png");
-    padding-inline-start: 23px;
-    margin-bottom: 0.4rem;
-}
-
-body .middle main article .footer .left {
-    display: inline;
-}
-
-body .middle main article .footer .left span {
-    display: inline-block;
-    padding-bottom: 0.7rem;
-}
-
-body .middle main article .footer {
-    position: relative;
-    height: 1.7rem;
-    border: 1px solid var(--border-color);
-    border-radius: var(--border-radius);
-}
-
-body .middle main article .footer .right {
-    display: inline;
-    float: right;
-    margin-top: 0.25rem;
-    margin-right: 0.5rem
-}
-
-
-main article .footer .left .positive-score {
-    font-size: 1.5rem;
-    color: #3f9321;
-    vertical-align: middle;
-}
