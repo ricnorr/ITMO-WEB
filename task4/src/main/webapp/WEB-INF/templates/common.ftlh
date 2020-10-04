@@ -66,7 +66,22 @@
 </#macro>
 
 <#macro sidebar>
-
+    <#import "./post.ftlh" as p>
+    <aside>
+        <#list posts?reverse as item>
+        <section>
+            <div class="header">
+                Post #${p.displayId(item)}
+            </div>
+            <@p.displayBody item 250/>
+            <div class="footer">
+                <@p.linkById item>
+                    View all
+                </@p.linkById>
+            </div>
+        </section>
+        </#list>
+    </aside>
 </#macro>
 
 <#macro footer>
@@ -86,3 +101,14 @@
         </#if>
     </#list>
 </#function>
+
+<#function findAll items key value>
+    <#assign result=[]>
+    <#list items as item>
+        <#if item[key] == value>
+            <#assign result=result+[item]>
+        </#if>
+    </#list>
+    <#return result>
+</#function>
+

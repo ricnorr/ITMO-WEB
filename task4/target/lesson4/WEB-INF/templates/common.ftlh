@@ -44,7 +44,7 @@
         </div>
         <nav>
             <#assign items=[
-            {"href": "/posts", "name": "Home"},
+            {"href": "/index", "name": "Home"},
             {"href": "/misc/help", "name": "Help"},
             {"href": "/contests", "name": "Contests"},
             {"href": "/users", "name":"Users"}
@@ -66,34 +66,21 @@
 </#macro>
 
 <#macro sidebar>
+    <#import "./post.ftlh" as p>
     <aside>
+        <#list posts?reverse as item>
         <section>
-            <div class="header">Information</div>
-            <div class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores enim expedita facilis
-                fugiat ipsum iste nobis reprehenderit tempore ut voluptatibus?
+            <div class="header">
+                Post #${p.displayId(item)}
             </div>
+            <@p.displayBody item 250/>
             <div class="footer">
-                <a href="#">View all</a>
+                <@p.linkById item>
+                    View all
+                </@p.linkById>
             </div>
         </section>
-        <section>
-            <div class="header">Information</div>
-            <div class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores enim expedita facilis
-                fugiat ipsum iste nobis reprehenderit tempore ut voluptatibus?
-            </div>
-            <div class="footer">
-                <a href="#">View all</a>
-            </div>
-        </section>
-        <section>
-            <div class="header">Information</div>
-            <div class="body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores enim expedita facilis
-                fugiat ipsum iste nobis reprehenderit tempore ut voluptatibus?
-            </div>
-            <div class="footer">
-                <a href="#">View all</a>
-            </div>
-        </section>
+        </#list>
     </aside>
 </#macro>
 
@@ -114,3 +101,14 @@
         </#if>
     </#list>
 </#function>
+
+<#function findAll items key value>
+    <#assign result=[]>
+    <#list items as item>
+        <#if item[key] == value>
+            <#assign result=result+[item]>
+        </#if>
+    </#list>
+    <#return result>
+</#function>
+
