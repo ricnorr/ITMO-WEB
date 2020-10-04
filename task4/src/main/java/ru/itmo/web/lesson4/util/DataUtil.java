@@ -1,8 +1,10 @@
 package ru.itmo.web.lesson4.util;
 
+import ru.itmo.web.lesson4.model.Post;
 import ru.itmo.web.lesson4.model.User;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.PipedOutputStream;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -15,6 +17,16 @@ public class DataUtil {
             new User(11, "tourist", "Gennady Korotkevich")
     );
 
+    private static final List<Post> POSTS = Arrays.asList(
+            new Post(10, 1, "Post from MikeMirzayanov", "Today all students will get ban for Java. More details are waiting you in 331"),
+            new Post(60, 6, "Post from pashka", "A new lab starts today. Deadline in one week! Hurry up"),
+            new Post(99, 9, "Post from gera", "News! Kotlin heroes without kotlin. If you are interested, write me in tg"),
+            new Post(111, 11, "Post from tourist", "ICPC training is cab. 100 at 17:00. Entrance is free!ICPC training is cab. 100 at 17:00. " +
+                    "Entrance is free!ICPC training is cab. 100 at 17:00. Entrance is free!ICPC training is cab. 100 at 17:00. " +
+                    "Entrance is free!ICPC training is cab. 100 at 17:00. Entrance is free!ICPC training is cab. 100 at 17:00." +
+                    " Entrance is free!ICPC training is cab. 100 at 17:00. Entrance is free!ICPC training is cab. 100 at 17:00. Entrance is free!")
+    );
+
     public static void addData(HttpServletRequest request, Map<String, Object> data) {
         data.put("users", USERS);
 
@@ -23,5 +35,7 @@ public class DataUtil {
                 data.put("user", user);
             }
         }
+
+        data.put("posts", POSTS);
     }
 }

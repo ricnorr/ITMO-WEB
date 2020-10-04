@@ -46,7 +46,8 @@
             <#assign items=[
             {"href": "/index", "name": "Home"},
             {"href": "/misc/help", "name": "Help"},
-            {"href": "/contests", "name": "Contests"}
+            {"href": "/contests", "name": "Contests"},
+            {"href": "/users", "name":"Users"}
             ]/>
             <ul>
                 <#list items as item>
