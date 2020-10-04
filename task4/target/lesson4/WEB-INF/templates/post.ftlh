@@ -20,19 +20,8 @@
     <div class="header">${element.title}</div>
 </#macro>
 
-<<<<<<< HEAD
-<#macro post element>
-    <article>
-        <div class="title">${element.title}</div>
-        <div class="information">By user: ${c.findBy(users, "id", element.user_id).handle}</div>
-        <div class="body">
-            <p><@display element.text/></p>
-        </div>
-    </article>
-=======
 <#macro linkById element>
     <a href="/post?post_id=${displayId(element)}"><#nested></a>
->>>>>>> task4.5
 </#macro>
 
 <#function displayId element>
