@@ -13,6 +13,11 @@ body .middle main article .information {
     margin-top: 0.1rem;
 }
 
+body .middle main article .header {
+    font-size: 1.5rem !important;
+    color: #3B5998 !important;
+}
+
 body .middle main article .body {
     border-left: 4px solid #B9B9B9;
     padding-left: 1rem;

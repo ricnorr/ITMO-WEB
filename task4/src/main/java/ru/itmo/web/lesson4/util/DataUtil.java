@@ -24,7 +24,9 @@ public class DataUtil {
             new Post(111, 11, "Post from tourist", "ICPC training is cab. 100 at 17:00. Entrance is free!ICPC training is cab. 100 at 17:00. " +
                     "Entrance is free!ICPC training is cab. 100 at 17:00. Entrance is free!ICPC training is cab. 100 at 17:00. " +
                     "Entrance is free!ICPC training is cab. 100 at 17:00. Entrance is free!ICPC training is cab. 100 at 17:00." +
-                    " Entrance is free!ICPC training is cab. 100 at 17:00. Entrance is free!ICPC training is cab. 100 at 17:00. Entrance is free!")
+                    " Entrance is free!ICPC training is cab. 100 at 17:00. Entrance is free!ICPC training is cab. 100 at 17:00. Entrance is free!"),
+            new Post(100, 9, "Privet from gera", "News! Kotlin heroes without kotlin. If you are interested, write me in tg")
+
     );
 
     public static void addData(HttpServletRequest request, Map<String, Object> data) {

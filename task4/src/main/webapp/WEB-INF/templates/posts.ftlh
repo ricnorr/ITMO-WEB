@@ -1,4 +1,5 @@
 <#import "./common.ftlh" as c>
+<<<<<<< HEAD
 
 <@c.page>
     <link rel="stylesheet" href="/css/post.css">
@@ -25,3 +26,10 @@
         <td>${var}</td>
     </#if>
 </#macro>
+=======
+<#import "./post.ftlh" as p>
+<@c.page>
+    <#if user_id??>
+        <@p.page c.findAll(posts, "user_id", user_id) "null"/>
+    </#if>
+</@c.page>
