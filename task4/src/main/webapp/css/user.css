@@ -1,0 +1,25 @@
+div.middle main div.user {
+    border:1px solid lightgray;
+    height:130px;
+}
+
+div.middle main div.user div.left {
+    display:inline-block;
+}
+
+div.middle main div.user div.left a {
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: #3B5998;
+}
+
+div.middle main div.user div.right {
+    display:inline-block;
+    float:right;
+}
+
+div.middle main div.left-arrow, div.middle main div.right-arrow  {
+    display:inline-block;
+    font-size: 3rem;
+}
