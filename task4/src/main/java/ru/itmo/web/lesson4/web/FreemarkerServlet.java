@@ -13,10 +13,14 @@ import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class FreemarkerServlet extends HttpServlet {
     private static final String UTF_8 = StandardCharsets.UTF_8.name();
     private final Configuration cfg = new Configuration(Configuration.VERSION_2_3_30);
+    private static final Set<String> REDIRECT_ROOT = new TreeSet<String>(Set.of("/", ""));
+    private static final String root = "index";
 
     @Override
     public void init() throws ServletException {
@@ -42,15 +46,20 @@ public class FreemarkerServlet extends HttpServlet {
         response.setCharacterEncoding(UTF_8);
 
         Template template;
+        if (REDIRECT_ROOT.contains(request.getRequestURI())) {
+            response.setStatus(HttpServletResponse.SC_MOVED_TEMPORARILY);
+            response.setHeader("Location", root);
+            return;
+        }
         try {
             template = cfg.getTemplate(URLDecoder.decode(request.getRequestURI(), UTF_8) + ".ftlh");
         } catch (TemplateNotFoundException ignored) {
             response.setStatus(HttpServletResponse.SC_NOT_FOUND);
-            return;
+            template = cfg.getTemplate(URLDecoder.decode("404", UTF_8) + ".ftlh");
         }
 
-        Map<String, Object> data = getData(request);
 
+        Map<String, Object> data = getData(request);
         response.setContentType("text/html");
         try {
             template.process(data, response.getWriter());

@@ -48,11 +48,15 @@
             {"href": "/misc/help", "name": "Help"},
             {"href": "/contests", "name": "Contests"}
             ]/>
-            <a>uri</a>
             <ul>
                 <#list items as item>
                     <li>
-                        <a href="${item.href}">${item.name}</a>
+                        <#if uri?starts_with(item.href)>
+                            <a style="text-decoration: underline;" href="${item.href}">${item.name}</a>
+                        <#else>
+                            <a href="${item.href}">${item.name}</a>
+                        </#if>
+
                     </li>
                 </#list>
             </ul>
