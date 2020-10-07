@@ -33,8 +33,8 @@
         </div>
 
         <div class="enter-or-register-box">
-            <#if logged_user_id??>
-                <@nameonly findBy(users,"id",logged_user_id)/>
+            <#if logged_user_id?? && findBy(users, "id", logged_user_id)!="null">
+                <@nameonly findBy(users, "id", logged_user_id)/>
                 |
                 <a href="/logout">Logout</a>
             <#else>
@@ -71,18 +71,20 @@
     <aside>
         <#list posts?reverse as item>
             <section>
-                <div class="header">
-                    Post #${p.displayId(item)}
-                </div>
-                <@p.displayBody item 250/>
-                <div class="footer">
-                    <@p.linkById item>
-                        View all
-                    </@p.linkById>
-                </div>
+                <@HeaderBodyFooterPost "Post # ${item.id}" item 250/>
             </section>
         </#list>
     </aside>
+</#macro>
+
+<#macro HeaderBodyFooterPost header item border>
+    <div class="header">
+        ${header}
+    </div>
+    <@displayBody item.text border/>
+    <div class="footer">
+        <a href="/post?post_id=${item.id}">View all</a>
+    </div>
 </#macro>
 
 <#macro footer>
@@ -93,7 +95,7 @@
 
 <#macro userlink user>
     <#assign map={"RED" : "red", "BLUE" : "blue", "GREEN" : "green" }>
-    <a style="color:${map[user.color]}" href="/user?handle=${user.handle}">${user.handle}</a>
+    <a style="color:${map[user.color]}; text-decoration: none" href="/user?handle=${user.handle}">${user.handle}</a>
 </#macro>
 
 <#macro nameonly user>
@@ -106,9 +108,8 @@
             <#return item/>
         </#if>
     </#list>
+    <#return "null">
 </#function>
-
-
 
 <#function findAll items key value>
     <#assign result=[]>
@@ -120,3 +121,44 @@
     <#return result>
 </#function>
 
+<#function getNext items key value>
+    <#list items as item>
+        <#if item[key] == value>
+            <#if item_has_next>
+                <#return items[item_index + 1][key]>
+            <#else>
+                <#return "null">
+            </#if>
+        </#if>
+    </#list>
+</#function>
+
+<#function getPrev items key value>
+    <#list items as item>
+        <#if item[key] == value>
+            <#if item_index gt 0>
+                <#return items[item_index - 1][key]>
+            <#else>
+                <#return "null">
+            </#if>
+        </#if>
+    </#list>
+</#function>
+
+<#macro displayBody text border>
+    <div class="body">
+        <@display text border/>
+    </div>
+</#macro>
+
+<#macro display var border>
+    <#if var?length gt border>
+        ${var?substring(0, border)}…
+    <#else>
+        ${var}
+    </#if>
+</#macro>
+
+<#macro linkById element>
+    <a href="/post?post_id=${element}"><#nested></a>
+</#macro>
