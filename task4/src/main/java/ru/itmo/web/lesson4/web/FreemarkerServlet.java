@@ -73,8 +73,12 @@ public class FreemarkerServlet extends HttpServlet {
         Map<String, Object> data = new HashMap<>();
 
         for (Map.Entry<String, String[]> e : request.getParameterMap().entrySet()) {
-            if (e.getValue() != null && e.getValue().length == 1 && e.getKey().endsWith("id") && e.getValue()[0].matches("-?\\d+")) {
-                data.put(e.getKey(), Long.valueOf(e.getValue()[0]));
+            if (e.getValue() != null && e.getValue().length == 1 && e.getKey().endsWith("id")) {
+                try {
+                    data.put(e.getKey(), Long.valueOf(e.getValue()[0]));
+                } catch (NumberFormatException exception) {
+                    data.put(e.getKey(), -1);
+                }
             } else if (e.getValue() != null && e.getValue().length == 1) {
                 data.put(e.getKey(), e.getValue()[0]);
             }

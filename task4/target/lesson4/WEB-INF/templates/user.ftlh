@@ -1,67 +1,47 @@
 <#import "./common.ftlh" as c>
+<#import "./404.ftlh" as error404>
 
-<#assign null = "null"!/>
-<@c.page>
+<#if user_id??>
+    <#assign key="id">
+    <#assign value=user_id>
+    <#if !user_id?is_number>
+        <@error404.page/>
+    </#if>
+<#elseif handle??>
+    <#assign key="handle">
+    <#assign value=handle>
+</#if>
+<#assign u = c.findBy(users, key, value)!/>
+
+<#if u != "null">
+    <@c.page>
     <link rel="stylesheet" href="/css/user.css">
     <div class="user">
         <div class="left">
-            <#if id??>
-                <#assign key="id">
-                <#assign value=id>
-                <#elseif handle??>
-                    <#assign key="handle">
-                    <#assign value=handle>
-            </#if>
-            <#assign u = c.findBy(users, key, value)!/>
-            <#if u?has_content>
-                <@displayBLock u/>
-            <#else>
-                no user
-            </#if>
+            <@displayBLock u/>
         </div>
         <div class="right">
             <img src="/img/no-title.jpg">
         </div>
     </div>
     <div class="left-arrow">
-        <@activeCssArrow getPrev(users, key, value)>←</@activeCssArrow>
+        <@activeCssArrow c.getPrev(users, "handle", u.handle)>←</@activeCssArrow>
     </div>
     <div class="right-arrow">
-        <@activeCssArrow getNext(users, key, value)>→</@activeCssArrow>
+        <@activeCssArrow c.getNext(users, "handle", u.handle)>→</@activeCssArrow>
     </div>
 </@c.page>
-
-<#function getNext items key value>
-    <#list items as item>
-        <#if item[key] == value>
-            <#if item_has_next>
-                <#return items[item_index + 1][key]>
-            <#else>
-                <#return null>
-            </#if>
-        </#if>
-    </#list>
-</#function>
-
-<#function getPrev items key value>
-    <#list items as item>
-        <#if item[key] == value>
-            <#if item_index gt 0>
-                <#return items[item_index - 1][key]>
-            <#else>
-                <#return "null">
-            </#if>
-        </#if>
-    </#list>
-</#function>
+<#else>
+    <@error404.page/>
+</#if>
 
 <#macro activeCssArrow next>
-    <#if "${next}" != null>
+    <#if next != "null">
         <a style="
             font-weight: bold;
             font-size: 2rem;
             color: #3B5998;
-            " href="http://localhost:8080/user?${key}=${next}"><#nested></a>
+            " href="/user?handle=${next}"><#nested></a>
     <#else>
         <span style="
             font-weight: bold;
@@ -72,12 +52,12 @@
 </#macro>
 
 <#macro displayBLock obj>
-    <a href="#">
+    <span>
         ${obj.name}
-    </a>
+    </span>
     <ul class="list">
         <li>
-            ${obj.handle}
+            <@c.userlink obj/>
         </li>
         <li>
             ${obj.id}

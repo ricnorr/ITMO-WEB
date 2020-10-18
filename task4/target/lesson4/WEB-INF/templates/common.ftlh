@@ -33,8 +33,8 @@
         </div>
 
         <div class="enter-or-register-box">
-            <#if logged_user_id??>
-                <@nameonly findBy(users,"id",logged_user_id)/>
+            <#if logged_user_id?? && findBy(users, "id", logged_user_id)!="null">
+                <@nameonly findBy(users, "id", logged_user_id)/>
                 |
                 <a href="/logout">Logout</a>
             <#else>
@@ -108,6 +108,7 @@
             <#return item/>
         </#if>
     </#list>
+    <#return "null">
 </#function>
 
 <#function findAll items key value>

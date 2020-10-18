@@ -7,12 +7,13 @@ div.middle main div.user div.left {
     display:inline-block;
 }
 
-div.middle main div.user div.left a {
+div.middle main div.user div.left span {
     font-weight: bold;
     font-size: 2rem;
     text-decoration: underline;
     color: #3B5998;
 }
+
 
 div.middle main div.user div.right {
     display:inline-block;

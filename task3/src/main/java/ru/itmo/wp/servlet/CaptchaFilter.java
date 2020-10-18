@@ -27,25 +27,37 @@ public class CaptchaFilter extends HttpFilter {
 
         boolean captchaDone = (boolean) session.getAttribute("captchaDone");
         Integer captchaAnswer = (Integer) session.getAttribute("captchaAnswer");
-        if (request.getMethod().equals("POST") || (boolean)session.getAttribute("captchaDone")) {
-            chain.doFilter(request, response);
-            return;
-        }
 
-        if (request.getMethod().equals("GET") && request.getParameter("captcha") != null) {
-            Integer captchaAttempt = new Integer(request.getParameter("captcha"));
-            if (captchaAttempt.equals(captchaAnswer)) {
-                session.setAttribute("captchaDone", true);
-                response.sendRedirect((String)session.getAttribute("baseRequestURI"));
+        if (request.getParameter("captcha") != null) {
+            try {
+                Integer captchaAttempt = new Integer(request.getParameter("captcha"));
+                if (captchaAttempt.equals(captchaAnswer)) {
+                    session.setAttribute("captchaDone", true);
+                    response.sendRedirect((String)session.getAttribute("baseRequestURI"));
+                } else {
+                    sendCaptchaPage(response, captchaDone, captchaAnswer);
+                }
+                return;
+            } catch (NumberFormatException e) {
+                response.sendRedirect(request.getRequestURI());
                 return;
             }
         }
 
+        if (request.getMethod().equals("POST") || captchaDone) {
+            chain.doFilter(request, response);
+            return;
+        }
+        sendCaptchaPage(response, captchaDone, captchaAnswer);
+    }
+
+
+    private static void sendCaptchaPage(HttpServletResponse response, boolean captchaDone, Integer captchaAnswer) throws IOException {
         if (!captchaDone) {
             response.setContentType("text/html");
             byte[] imgString = "<img id=\"profileImage\" src=\"data:image/png;base64, ".getBytes();
             byte[] img = Base64.getEncoder().encode(ImageUtils.toPng(Integer.toString(captchaAnswer)));
-            byte[] imgStringPart2 = ("\"> <form method=\"get\" action=\"#\">\n" +
+            byte[] imgStringPart2 = ("\"> <form method=\"post\">\n" +
                     "        <label for=\"captcha\">Enter captcha:</label>\n" +
                     "        <input id=\"captcha\" name=\"captcha\" >\n" +
                     "    </form>").getBytes();
@@ -56,10 +68,6 @@ public class CaptchaFilter extends HttpFilter {
             response.getOutputStream().write(result);
             response.getOutputStream().flush();
             response.setStatus(200);
-            return;
         }
-
-
-        response.setStatus(404);
     }
 }

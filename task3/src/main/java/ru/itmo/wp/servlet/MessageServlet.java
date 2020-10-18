@@ -12,6 +12,7 @@ import java.io.Serializable;
 import java.util.*;
 
 public class MessageServlet extends HttpServlet {
+    private static final Gson jsonParser = new Gson();
     private static class UserTextPair implements Serializable {
         private String user;
         private String text;
@@ -39,16 +40,16 @@ public class MessageServlet extends HttpServlet {
             case ("/message/auth"):
                 if (request.getParameter("user") != null) {
                     session.setAttribute("user", request.getParameter("user"));
-                    response.getWriter().print(new Gson().toJson(request.getParameter("user")));
+                    response.getWriter().print(jsonParser.toJson(request.getParameter("user")));
                 } else {
-                    response.getWriter().print(new Gson().toJson(""));
+                    response.getWriter().print(jsonParser.toJson(""));
                 }
                 break;
             case ("/message/add"):
                 list.add(new UserTextPair((String)session.getAttribute("user"), request.getParameter("text")));
                 break;
             case ("/message/findAll"):
-                response.getWriter().print(new Gson().toJson(list));
+                response.getWriter().print(jsonParser.toJson(list));
                 break;
             default:
                 response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
