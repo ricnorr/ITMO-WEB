@@ -44,7 +44,7 @@ public class FrontServlet extends HttpServlet {
                 TemplateExceptionHandler.RETHROW_HANDLER);
         configuration.setLogTemplateExceptions(false);
         configuration.setWrapUncheckedExceptions(true);
-        configuration.setLocale(Locale.US);
+        configuration.setLocalizedLookup(false);
         return configuration;
     }
 
@@ -134,8 +134,12 @@ public class FrontServlet extends HttpServlet {
                 throw new ServletException("Can't invoke action method [pageClass=" + pageClass + ", method=" + method + "]", cause);
             }
         }
-
-        Template template = newTemplate(pageClass.getSimpleName() + TEMPLATE_LANGUAGE.getOrDefault(request.getSession().getAttribute("lang"), "") + ".ftlh");
+        Template template;
+        try {
+            template = newTemplate(pageClass.getSimpleName() + TEMPLATE_LANGUAGE.getOrDefault(request.getSession().getAttribute("lang"), "") + ".ftlh");
+        } catch (NotFoundException e) {
+            template = newTemplate(pageClass.getSimpleName() + ".ftlh");
+        }
         response.setContentType("text/html");
         response.setCharacterEncoding(StandardCharsets.UTF_8.name());
         try {
@@ -145,14 +149,14 @@ public class FrontServlet extends HttpServlet {
         }
     }
 
-    private Template newTemplate(String templateName) throws ServletException {
+    private Template newTemplate(String templateName) throws ServletException, NotFoundException {
         Template template = null;
 
         if (sourceConfiguration != null) {
             try {
                 template = sourceConfiguration.getTemplate(templateName);
             } catch (TemplateNotFoundException ignored) {
-                // No operations.
+                throw new NotFoundException();
             } catch (IOException e) {
                 throw new ServletException("Can't load template [templateName=" + templateName + "]", e);
             }
