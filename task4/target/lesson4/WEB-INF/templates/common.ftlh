@@ -45,7 +45,7 @@
         </div>
         <nav>
             <#assign items=[
-            {"href": "/posts", "name": "Home"},
+            {"href": "/index", "name": "Home"},
             {"href": "/misc/help", "name": "Help"},
             {"href": "/contests", "name": "Contests"},
             {"href": "/users", "name":"Users"}
