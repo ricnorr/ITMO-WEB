@@ -1,8 +1,5 @@
 package ru.itmo.wp.web.page;
 
-import ru.itmo.wp.web.exception.NotFoundException;
-
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.Map;
@@ -63,6 +60,9 @@ public class TicTacToePage {
         private boolean canMove() {
             return inc < size * size;
         }
+
+
+
     }
 
     private void newGame(HttpServletRequest request, Map<String, Object> view) {
@@ -81,7 +81,7 @@ public class TicTacToePage {
 
     }
 
-    public void onMove(HttpServletRequest request, Map<String, Object> view) throws NotFoundException {
+    public void onMove(HttpServletRequest request, Map<String, Object> view) {
         Map<String, String[]> move = request.getParameterMap();
         HttpSession session = request.getSession();
 
@@ -94,60 +94,46 @@ public class TicTacToePage {
             view.put("state", currentState);
             return;
         }
-        currentState.inc();
         for (String key : move.keySet()) {
-            if (key.matches("cell_[0-9][0-9]")) {
+            if (key.matches("cell_[0-9]*")) {
                 String valueForMove;
+                String twoNumbers = key.substring(5);
+                int xValue = Integer.parseInt(twoNumbers.substring(0, twoNumbers.length() / 2));
+                int yValue = Integer.parseInt(twoNumbers.substring(twoNumbers.length() / 2));
                 if (currentState.crossesMove) {
                     valueForMove = "X";
                 } else {
                     valueForMove = "0";
                 }
+
                 currentState.setCells(key.charAt(key.length() - 2) % '0', key.charAt(key.length() - 1) % '0', valueForMove);
                 currentState.switchMove();
                 break;
             }
+
         }
-        String winner = checkWinner(currentState);
-        winner = winner == null ? "DEFAULT" : winner;
-        switch (winner) {
-            case "X":
-                currentState.setPhase(Phase.WON_X);
-                break;
-            case "0":
-                currentState.setPhase(Phase.WON_O);
-                break;
-            default:
-                if (!currentState.canMove() && currentState.getPhase() == Phase.RUNNING) {
-                    currentState.setPhase(Phase.DRAW);
-                }
+        currentState.inc();
+        checkWinner(currentState);
+        if (!currentState.canMove() && currentState.getPhase() == Phase.RUNNING) {
+            currentState.setPhase(Phase.DRAW);
         }
         view.put("state", currentState);
     }
 
-    private String checkWinner(State state) {
+    private void checkWinner(State state) {
         String winner;
         for (int i = 0; i < state.getSize(); i++) {
-            winner = checkVector(0, 1, i, 0, state);
-            if (winner != null) {
-                return winner;
-            }
-            winner = checkVector(1, 0, 0, i, state);
-            if (winner != null) {
-                return winner;
-            }
+            checkVector(0, 1, i, 0, state);
+            checkVector(1, 0, 0, i, state);
         }
-        winner = checkVector(1, 1, state.getSize() - 1, 0, state);
-        if (winner != null) {
-            return winner;
-        }
-        return checkVector(-1, 1, state.getSize() - 1, 0, state);
+        checkVector(1, 1, 0, 0, state);
+        checkVector(-1, 1, state.getSize() - 1, 0, state);
     }
 
-    private String checkVector(int x, int y, int i, int j, State state) {
+    private void checkVector(int x, int y, int i, int j, State state) {
         String startValue = state.getCells()[i][j];
         if (startValue == null) {
-            return null;
+            return;
         }
         int curi = i;
         int curj = j;
@@ -158,8 +144,8 @@ public class TicTacToePage {
             cnt++;
         }
         if (cnt != state.getSize()) {
-            return null;
+            return;
         }
-        return startValue;
+        state.setPhase(startValue.equals("X") ? Phase.WON_X : Phase.WON_O);
     }
 }

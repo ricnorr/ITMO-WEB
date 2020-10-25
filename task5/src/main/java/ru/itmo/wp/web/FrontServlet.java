@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 public class FrontServlet extends HttpServlet {
     private static final String BASE_PACKAGE = FrontServlet.class.getPackage().getName() + ".page";
     private static final String DEFAULT_ACTION = "action";
-    private static final Map<String, String> TEMPLATE_LANGUAGE = new HashMap<>(Map.of("ru", "_ru"));
+    private static final Map<String, String> TEMPLATE_LANGUAGE = Map.of("en", "");
     private Configuration sourceConfiguration;
     private Configuration targetConfiguration;
 
@@ -107,19 +107,13 @@ public class FrontServlet extends HttpServlet {
         } catch (InstantiationException | IllegalAccessException e) {
             throw new ServletException("Can't create page [pageClass=" + pageClass + "]");
         }
-
-        Map<String, Object> view = new HashMap<>();
         method.setAccessible(true);
-
-        Map<Class<?>, Object> mapOfArgs = new HashMap<>();
-        mapOfArgs.put(Map.class, view);
-        mapOfArgs.put(HttpServletRequest.class, request);
-
+        Map<Class<?>, Object> mapOfArgs = Map.of(Map.class, new HashMap<>(), HttpServletRequest.class, request);
         try {
-            Class<?>[] parameterTypesArray = method.getParameterTypes();
-            Object[] argsArray = new Object[parameterTypesArray.length];
-            for (int i = 0; i < parameterTypesArray.length; i++) {
-                argsArray[i] = mapOfArgs.get(parameterTypesArray[i]);
+            Class<?>[] parameterTypes = method.getParameterTypes();
+            Object[] argsArray = new Object[parameterTypes.length];
+            for (int i = 0; i < parameterTypes.length; i++) {
+                argsArray[i] = mapOfArgs.get(parameterTypes[i]);
             }
             method.invoke(page, argsArray);
         } catch (IllegalAccessException e) {
@@ -136,14 +130,19 @@ public class FrontServlet extends HttpServlet {
         }
         Template template;
         try {
-            template = newTemplate(pageClass.getSimpleName() + TEMPLATE_LANGUAGE.getOrDefault(request.getSession().getAttribute("lang"), "") + ".ftlh");
+            String lang = (String) request.getSession().getAttribute("lang");
+            String langPrefix = "";
+            if (lang != null && lang.length() == 2) {
+                langPrefix = TEMPLATE_LANGUAGE.getOrDefault(lang, "_ru");
+            }
+            template = newTemplate(pageClass.getSimpleName() + langPrefix + ".ftlh");
         } catch (NotFoundException e) {
             template = newTemplate(pageClass.getSimpleName() + ".ftlh");
         }
         response.setContentType("text/html");
         response.setCharacterEncoding(StandardCharsets.UTF_8.name());
         try {
-            template.process(view, response.getWriter());
+            template.process(mapOfArgs.get(Map.class), response.getWriter());
         } catch (TemplateException e) {
             throw new ServletException("Can't render template [pageClass=" + pageClass + ", action=" + method + "]", e);
         }
