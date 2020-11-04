@@ -142,7 +142,7 @@ public class FrontServlet extends HttpServlet {
             throw new ServletException("Can't create page [pageClass=" + pageClass + "].", e);
         }
 
-        Map<String, Object> view = new HashMap<>();
+      Map<String, Object> view = new HashMap<>();
 
         Method methodBefore = null;
         for (Class<?> clazz = pageClass; methodBefore == null && clazz != null; clazz = clazz.getSuperclass()) {
