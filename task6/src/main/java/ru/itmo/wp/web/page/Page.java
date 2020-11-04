@@ -2,14 +2,16 @@ package ru.itmo.wp.web.page;
 
 import com.google.common.base.Strings;
 import ru.itmo.wp.model.domain.User;
+import ru.itmo.wp.model.service.MessageService;
 import ru.itmo.wp.model.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
-public class Page {
-
+abstract public class Page {
     private HttpServletRequest request;
+    protected static final UserService userService = new UserService();
+    protected static final MessageService messageService = new MessageService();
 
     public void before(HttpServletRequest request, Map<String, Object> view) {
         this.request = request;
@@ -39,7 +41,7 @@ public class Page {
     }
 
     public void after(Map<String, Object> view) {
-        view.put("userCount", new UserService().countUsers());
+
     }
 
     private void action(HttpServletRequest request, Map<String, Object> view) {

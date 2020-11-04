@@ -3,6 +3,7 @@ package ru.itmo.wp.model.service;
 import com.google.common.base.Strings;
 import com.google.common.hash.Hashing;
 import ru.itmo.wp.model.domain.User;
+import ru.itmo.wp.model.exception.RepositoryException;
 import ru.itmo.wp.model.exception.ValidationException;
 import ru.itmo.wp.model.repository.UserRepository;
 import ru.itmo.wp.model.repository.impl.UserRepositoryImpl;
@@ -88,5 +89,17 @@ public class UserService {
 
     public User findByLoginOrEmailAndPassword(String loginOrEmail, String password) {
         return userRepository.findByLoginOrEmailAndPasswordSha(loginOrEmail, getPasswordSha(password));
+    }
+
+    public User find(long id) {
+        return userRepository.find(id);
+    }
+
+    public void validate(String id) throws ValidationException {
+        try {
+            userRepository.find(Long.parseLong(id));
+        } catch (RepositoryException | NumberFormatException e) {
+            throw new ValidationException("Target user not found");
+        }
     }
 }
