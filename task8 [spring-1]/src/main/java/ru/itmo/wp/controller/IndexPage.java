@@ -8,7 +8,8 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class IndexPage extends Page {
     @GetMapping({"", "/"})
-    public String index() {
+    public String index(HttpSession session) {
+        getAllNotices(session);
         return "IndexPage";
     }
 

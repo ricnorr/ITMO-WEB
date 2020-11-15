@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import ru.itmo.wp.form.UserCredentials;
 import ru.itmo.wp.form.validator.UserCredentialsEnterValidator;
+import ru.itmo.wp.service.NoticeService;
 import ru.itmo.wp.service.UserService;
 
 import javax.servlet.http.HttpSession;
@@ -31,7 +32,8 @@ public class EnterPage extends Page {
     }
 
     @GetMapping("/enter")
-    public String register(Model model) {
+    public String register(Model model, HttpSession session) {
+        getAllNotices(session);
         model.addAttribute("enterForm", new UserCredentials());
         return "EnterPage";
     }

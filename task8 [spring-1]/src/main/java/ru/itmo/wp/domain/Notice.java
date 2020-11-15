@@ -7,20 +7,20 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 
-@SuppressWarnings("unused")
 @Entity
 @Table(
-        indexes = @Index(columnList = "creationTime"),
-        uniqueConstraints = @UniqueConstraint(columnNames = "login")
+        indexes = @Index(columnList = "creationTime")
 )
-public class User {
+public class Notice {
+    //id, content (используйте аннотацию @Lob), creationTime
     @Id
     @GeneratedValue
     private long id;
 
     @NotNull
     @NotEmpty
-    private String login;
+    @Lob
+    private String content;
 
     @CreationTimestamp
     private Date creationTime;
@@ -33,12 +33,12 @@ public class User {
         this.id = id;
     }
 
-    public String getLogin() {
-        return login;
+    public String getContent() {
+        return content;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
+    public void setContent(String login) {
+        this.content = login;
     }
 
     public Date getCreationTime() {

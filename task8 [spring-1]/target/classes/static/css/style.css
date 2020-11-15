@@ -83,6 +83,10 @@ aside {
     width: 20rem;
 }
 
+aside section {
+    margin-bottom: 2rem;
+}
+
 main {
     margin-right: 21rem;
 }
