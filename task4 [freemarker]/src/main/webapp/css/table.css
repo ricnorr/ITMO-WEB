@@ -1,0 +1,54 @@
+body .middle main .datatable {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+body .middle main .datatable .caption {
+    padding-left: 0.5rem;
+    padding-top: 0.25rem;
+    height: 1.4rem;
+    background-color: #E1E1E1;
+}
+
+body .middle main .datatable th {
+    font-size: 0.8rem;
+    border: 1px solid #E1E1E1;
+    background-color: white;
+}
+
+body .middle main .datatable table thead th:nth-child(1),
+    body .middle main .datatable table thead th:nth-child(2),
+      body .middle main .datatable table thead th:nth-child(3){
+    width: 5em;
+}
+
+
+
+body .middle main .datatable td {
+    font-weight: lighter;
+    font-size: 0.87rem;
+    border: 1px solid #E1E1E1;
+    padding: 0 0.65rem 0 0.65rem;
+    height: 1.85rem;
+}
+
+body .middle main .datatable tr {
+    height: 1.85rem;
+    background-color: #f4f4f4;
+}
+
+body .middle main .datatable tbody tr:nth-child(2n) {
+    background-color: white;
+}
+
+body .middle main  .datatable hr {
+    line-height: 2rem;
+}
+
+body .middle main .datatable table {
+    width: 100%;
+    borer:1px solid #E1E1E1;
+    border-collapse: collapse;
+    text-align: center;
+}
+
