@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="wp31:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:source" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f032839a-1ea7-472a-b94f-ad1cff629163" name="Default Changelist" comment="3.10 testing commit">
+      <change afterPath="$PROJECT_DIR$/../task4/src/main/webapp/img/search-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/MessageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/servlet/CaptchaFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/posts.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/posts.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/user.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/user.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/users.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/users.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/src/main/webapp/css/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/target/classes/ru/itmo/web/lesson4/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/target/classes/ru/itmo/web/lesson4/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/classes/ru/itmo/web/lesson4/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/classes/ru/itmo/web/lesson4/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/post.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/post.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/posts.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/posts.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/user.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/user.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/users.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/users.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/../task4/target/lesson4/css/user.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i97UF6y59iRHpIIj70kNj2hrzw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task4" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.71609193" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.task3_server">
+    <configuration name="TestsA" type="JUnit" factoryName="JUnit">
+      <module name="wp31" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsA" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsA.testReload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wp31" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsA" />
+      <option name="METHOD_NAME" value="testReload" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsB" type="JUnit" factoryName="JUnit">
+      <module name="wp31" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsB" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task3_server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.38" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="wp31:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_wp31" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="46839" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="wp31:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestsA" />
+      <item itemvalue="JUnit.TestsB" />
+      <item itemvalue="JUnit.TestsA.testReload" />
+      <item itemvalue="Tomcat Server.task3_server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestsA.testReload" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f032839a-1ea7-472a-b94f-ad1cff629163" name="Default Changelist" comment="" />
+      <created>1601307968401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601307968401</updated>
+      <workItem from="1601307969541" duration="28756000" />
+      <workItem from="1601373827051" duration="5934000" />
+      <workItem from="1601411584189" duration="14683000" />
+      <workItem from="1601641251713" duration="2968000" />
+      <workItem from="1601751403861" duration="2509000" />
+      <workItem from="1602182566563" duration="5591000" />
+      <workItem from="1602239884556" duration="7278000" />
+    </task>
+    <task id="LOCAL-00001" summary="3.10 testing commit">
+      <created>1601754581125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601754581125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3.10 testing commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.10 testing commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1601423790445">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure/72.27.1848.1053@72.27.1848.1053" timestamp="1601423790445" />
+    <state x="880" y="540" width="453" height="250" key="#Tomcat_Server" timestamp="1601316239862">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="880" y="540" width="453" height="250" key="#Tomcat_Server/72.27.1848.1053@72.27.1848.1053" timestamp="1601316239862" />
+    <state x="383" y="130" width="1084" height="902" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601425150846">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="383" y="130" width="1084" height="902" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601425150846" />
+    <state x="172" y="127" width="1648" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1601425246215">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="172" y="127" width="1648" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601425246215" />
+    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1601366627068">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1601366627068" />
+    <state x="657" y="341" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601326893350">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="657" y="341" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601326893350" />
+    <state x="813" y="699" width="484" height="381" key="#xdebugger.evaluate" timestamp="1601426225360">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="813" y="699" width="484" height="381" key="#xdebugger.evaluate/72.27.1848.1053@72.27.1848.1053" timestamp="1601426225360" />
+    <state width="459" height="506" key="DebuggerActiveHint" timestamp="1601420289138">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="459" height="506" key="DebuggerActiveHint/72.27.1848.1053@72.27.1848.1053" timestamp="1601420289138" />
+    <state x="1155" y="402" width="424" height="520" key="FileChooserDialogImpl" timestamp="1602240484596">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1155" y="402" width="424" height="520" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1602240484596" />
+    <state width="1240" height="275" key="GridCell.Tab.0.bottom" timestamp="1602248456519">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456519" />
+    <state width="1240" height="275" key="GridCell.Tab.0.center" timestamp="1602248456519">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456519" />
+    <state width="1240" height="275" key="GridCell.Tab.0.left" timestamp="1602248456518">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456518" />
+    <state width="1240" height="275" key="GridCell.Tab.0.right" timestamp="1602248456519">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456519" />
+    <state width="1240" height="275" key="GridCell.Tab.1.bottom" timestamp="1602248456520">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456520" />
+    <state width="1240" height="275" key="GridCell.Tab.1.center" timestamp="1602248456520">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456520" />
+    <state width="1240" height="275" key="GridCell.Tab.1.left" timestamp="1602248456519">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456519" />
+    <state width="1240" height="275" key="GridCell.Tab.1.right" timestamp="1602248456520">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456520" />
+    <state width="1240" height="275" key="GridCell.Tab.2.bottom" timestamp="1602248456521">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.2.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456521" />
+    <state width="1240" height="275" key="GridCell.Tab.2.center" timestamp="1602248456521">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.2.center/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456521" />
+    <state width="1240" height="275" key="GridCell.Tab.2.left" timestamp="1602248456520">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.2.left/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456520" />
+    <state width="1240" height="275" key="GridCell.Tab.2.right" timestamp="1602248456521">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.2.right/72.27.1848.1053@72.27.1848.1053" timestamp="1602248456521" />
+    <state width="1240" height="275" key="GridCell.Tab.3.bottom" timestamp="1602247886751">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.3.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1602247886751" />
+    <state width="1240" height="275" key="GridCell.Tab.3.center" timestamp="1602247886751">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.3.center/72.27.1848.1053@72.27.1848.1053" timestamp="1602247886751" />
+    <state width="1240" height="275" key="GridCell.Tab.3.left" timestamp="1602247886751">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.3.left/72.27.1848.1053@72.27.1848.1053" timestamp="1602247886751" />
+    <state width="1240" height="275" key="GridCell.Tab.3.right" timestamp="1602247886751">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.3.right/72.27.1848.1053@72.27.1848.1053" timestamp="1602247886751" />
+    <state x="755" y="165" width="1024" height="852" key="SettingsEditor" timestamp="1601324122994">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="755" y="165" width="1024" height="852" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1601324122994" />
+    <state width="924" height="526" key="XDebugger.FullValuePopup" timestamp="1601423316045">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="924" height="526" key="XDebugger.FullValuePopup/72.27.1848.1053@72.27.1848.1053" timestamp="1601423316045" />
+    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1601423483734">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601423483734" />
+    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601423483734">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601423483734" />
+    <state x="660" y="252" key="run.anything.popup" timestamp="1601374568505">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1601374568505" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestsB.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/StaticServlet.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/GzipFilter.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/StaticServlet.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.Request" memberName="attributes" />
+        <PinnedItemInfo parentTag="org.apache.catalina.core.ApplicationFilterChain" memberName="filters" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

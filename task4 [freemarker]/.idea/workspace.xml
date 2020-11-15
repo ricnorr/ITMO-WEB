@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lesson4:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:source" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1dd985eb-ecfd-4a6a-8fb4-58b7b0ea2298" name="Default Changelist" comment="ALL DONE. NEED REVIEW">
+      <change beforePath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/FrontServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/FrontServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/page/TicTacToePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/page/TicTacToePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/FrontServlet$Route.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/FrontServlet$Route.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/FrontServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/FrontServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/TicTacToePage$Phase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/TicTacToePage$Phase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/TicTacToePage$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/TicTacToePage$State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/TicTacToePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/TicTacToePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/FrontServlet$Route.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/FrontServlet$Route.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/FrontServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/FrontServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/TicTacToePage$Phase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/TicTacToePage$Phase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/TicTacToePage$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/TicTacToePage$State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/TicTacToePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/TicTacToePage.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iNjLyGwuRoE57Fr7qJxjKP4voc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task6" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/lesson4/img" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Task4SErver" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.38" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="lesson4:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_lesson4" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1100" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="40509" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="lesson4:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dd985eb-ecfd-4a6a-8fb4-58b7b0ea2298" name="Default Changelist" comment="" />
+      <created>1601754892106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601754892106</updated>
+      <workItem from="1601754893392" duration="19739000" />
+      <workItem from="1601803131487" duration="1714000" />
+      <workItem from="1601804993841" duration="1689000" />
+      <workItem from="1601807101620" duration="12630000" />
+      <workItem from="1601820553436" duration="12932000" />
+      <workItem from="1602101829617" duration="6228000" />
+      <workItem from="1602240494355" duration="7950000" />
+      <workItem from="1602442193610" duration="2838000" />
+      <workItem from="1602937237081" duration="686000" />
+      <workItem from="1603048853377" duration="8000" />
+      <workItem from="1603458522327" duration="568000" />
+      <workItem from="1603639034224" duration="27000" />
+    </task>
+    <task id="LOCAL-00001" summary="4.1 4.2 done">
+      <created>1601771453156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601771453156</updated>
+    </task>
+    <task id="LOCAL-00002" summary="4.1 4.2 4.3 4.4 posts problem with img found">
+      <created>1601809436162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601809436162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4.1 4.2 4.3 4.4 posts problem with img found">
+      <created>1601809473955</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601809473955</updated>
+    </task>
+    <task id="LOCAL-00004" summary="4.4 DONE">
+      <created>1601809970353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601809970353</updated>
+    </task>
+    <task id="LOCAL-00005" summary="4.4 DONE">
+      <created>1601810720926</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601810720926</updated>
+    </task>
+    <task id="LOCAL-00006" summary="4.5 DONE">
+      <created>1601818555069</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601818555069</updated>
+    </task>
+    <task id="LOCAL-00007" summary="4.6 DONE">
+      <created>1601826230824</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826230824</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ALL DONE. NEED REVIEW">
+      <created>1602110577468</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602110577468</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4.1 4.2 done" />
+    <MESSAGE value="4.1 4.2 4.3 4.4 posts problem with img found" />
+    <MESSAGE value="4.4 DONE" />
+    <MESSAGE value="4.5 DONE" />
+    <MESSAGE value="4.6 DONE" />
+    <MESSAGE value="ALL DONE. NEED REVIEW" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALL DONE. NEED REVIEW" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="436" y="397" width="1110" height="320" key="#Template_Data_Languages" timestamp="1601764466210">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="436" y="397" width="1110" height="320" key="#Template_Data_Languages/72.27.1848.1053@72.27.1848.1053" timestamp="1601764466210" />
+    <state x="454" y="211" width="1084" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601805003781">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="454" y="211" width="1084" height="798" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601805003781" />
+    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1601803420336">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="804" y="261" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1601803420336" />
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603639058229">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1603639058229" />
+    <state width="1240" height="275" key="GridCell.Tab.0.bottom" timestamp="1602458085395">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085395" />
+    <state width="1240" height="275" key="GridCell.Tab.0.center" timestamp="1602458085394">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085394" />
+    <state width="1240" height="275" key="GridCell.Tab.0.left" timestamp="1602458085394">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085394" />
+    <state width="1240" height="275" key="GridCell.Tab.0.right" timestamp="1602458085394">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085394" />
+    <state width="1240" height="275" key="GridCell.Tab.1.bottom" timestamp="1602458085395">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085395" />
+    <state width="1240" height="275" key="GridCell.Tab.1.center" timestamp="1602458085395">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085395" />
+    <state width="1240" height="275" key="GridCell.Tab.1.left" timestamp="1602458085395">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085395" />
+    <state width="1240" height="275" key="GridCell.Tab.1.right" timestamp="1602458085395">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085395" />
+    <state width="1240" height="275" key="GridCell.Tab.2.bottom" timestamp="1602458085396">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.2.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085396" />
+    <state width="1240" height="275" key="GridCell.Tab.2.center" timestamp="1602458085396">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.2.center/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085396" />
+    <state width="1240" height="275" key="GridCell.Tab.2.left" timestamp="1602458085395">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.2.left/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085395" />
+    <state width="1240" height="275" key="GridCell.Tab.2.right" timestamp="1602458085396">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.2.right/72.27.1848.1053@72.27.1848.1053" timestamp="1602458085396" />
+    <state width="1240" height="275" key="GridCell.Tab.3.bottom" timestamp="1602250468938">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.3.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1602250468938" />
+    <state width="1240" height="275" key="GridCell.Tab.3.center" timestamp="1602250468938">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.3.center/72.27.1848.1053@72.27.1848.1053" timestamp="1602250468938" />
+    <state width="1240" height="275" key="GridCell.Tab.3.left" timestamp="1602250468938">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.3.left/72.27.1848.1053@72.27.1848.1053" timestamp="1602250468938" />
+    <state width="1240" height="275" key="GridCell.Tab.3.right" timestamp="1602250468938">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.3.right/72.27.1848.1053@72.27.1848.1053" timestamp="1602250468938" />
+    <state x="485" y="188" width="1023" height="737" key="SettingsEditor" timestamp="1601803207941">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="188" width="1023" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1601803207941" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601800852567">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1601800852567" />
+    <state x="687" y="162" width="618" height="783" key="find.popup" timestamp="1602248807652">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="687" y="162" width="618" height="783" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1602248807652" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602243206189">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1602243206189" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/web/lesson4/web/StaticServlet.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/web/lesson4/web/FreemarkerServlet.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/web/lesson4/web/FreemarkerServlet.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lesson6:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3931ccfe-1370-4260-b8cf-1c0e7442d43c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../task7/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/ArticlePage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/.idea/templateLanguages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/model/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/model/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/page/IndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/page/IndexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/EnterPage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/EnterPage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/IndexPage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/IndexPage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/RegisterPage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/RegisterPage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/commons.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/commons.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/src/main/webapp/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/model/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/model/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/page/IndexPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/page/IndexPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/model/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/model/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/page/IndexPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/page/IndexPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/EnterPage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/EnterPage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/IndexPage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/IndexPage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/RegisterPage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/RegisterPage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/commons.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/commons.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/target/lesson7/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../task7/target/lesson7/js/app.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jTusVCH9ddn6j2I1RJqND2SjR1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task7" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="lesson6:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_lesson6_2" />
+        <option name="PRESERVE_SESSIONS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="43539" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="lesson6:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3931ccfe-1370-4260-b8cf-1c0e7442d43c" name="Default Changelist" comment="" />
+      <created>1603840615560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603840615560</updated>
+      <workItem from="1603840618837" duration="652000" />
+      <workItem from="1603842207376" duration="39000" />
+      <workItem from="1603842307367" duration="17000" />
+      <workItem from="1603911190605" duration="321000" />
+      <workItem from="1603911645662" duration="8387000" />
+      <workItem from="1603925252986" duration="28399000" />
+      <workItem from="1604060075595" duration="11028000" />
+      <workItem from="1604521020974" duration="1865000" />
+      <workItem from="1604584059509" duration="621000" />
+      <workItem from="1604606709038" duration="1389000" />
+      <workItem from="1604637074408" duration="117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="454" y="211" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603997102094">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="454" y="211" width="1084" height="760" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1603997102094" />
+    <state x="1266" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1604015958762">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1266" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1604015958762" />
+    <state x="749" y="448" width="494" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604013073684">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="749" y="448" width="494" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/72.27.1848.1053@72.27.1848.1053" timestamp="1604013073684" />
+    <state x="848" y="569" key="#xdebugger.evaluate" timestamp="1604069677777">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="848" y="569" key="#xdebugger.evaluate/72.27.1848.1053@72.27.1848.1053" timestamp="1604069677777" />
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604637189360">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1604637189360" />
+    <state width="1456" height="329" key="GridCell.Tab.0.bottom" timestamp="1604072476180">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476180" />
+    <state width="1456" height="329" key="GridCell.Tab.0.center" timestamp="1604072476180">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476180" />
+    <state width="1456" height="329" key="GridCell.Tab.0.left" timestamp="1604072476179">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476179" />
+    <state width="1456" height="329" key="GridCell.Tab.0.right" timestamp="1604072476180">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476180" />
+    <state width="1456" height="329" key="GridCell.Tab.1.bottom" timestamp="1604072476181">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476181" />
+    <state width="1456" height="329" key="GridCell.Tab.1.center" timestamp="1604072476181">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476181" />
+    <state width="1456" height="329" key="GridCell.Tab.1.left" timestamp="1604072476181">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476181" />
+    <state width="1456" height="329" key="GridCell.Tab.1.right" timestamp="1604072476181">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476181" />
+    <state width="1456" height="329" key="GridCell.Tab.2.bottom" timestamp="1604072476181">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.2.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476181" />
+    <state width="1456" height="329" key="GridCell.Tab.2.center" timestamp="1604072476181">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.2.center/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476181" />
+    <state width="1456" height="329" key="GridCell.Tab.2.left" timestamp="1604072476180">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.2.left/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476180" />
+    <state width="1456" height="329" key="GridCell.Tab.2.right" timestamp="1604072476181">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.2.right/72.27.1848.1053@72.27.1848.1053" timestamp="1604072476181" />
+    <state width="1456" height="329" key="GridCell.Tab.3.bottom" timestamp="1604072085146">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.3.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1604072085146" />
+    <state width="1456" height="329" key="GridCell.Tab.3.center" timestamp="1604072085145">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.3.center/72.27.1848.1053@72.27.1848.1053" timestamp="1604072085145" />
+    <state width="1456" height="329" key="GridCell.Tab.3.left" timestamp="1604072085144">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.3.left/72.27.1848.1053@72.27.1848.1053" timestamp="1604072085144" />
+    <state width="1456" height="329" key="GridCell.Tab.3.right" timestamp="1604072085145">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1456" height="329" key="GridCell.Tab.3.right/72.27.1848.1053@72.27.1848.1053" timestamp="1604072085145" />
+    <state width="1754" height="231" key="GridCell.Tab.5.bottom" timestamp="1604010001708">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1754" height="231" key="GridCell.Tab.5.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1604010001708" />
+    <state width="1754" height="231" key="GridCell.Tab.5.center" timestamp="1604010001706">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1754" height="231" key="GridCell.Tab.5.center/72.27.1848.1053@72.27.1848.1053" timestamp="1604010001706" />
+    <state width="1754" height="231" key="GridCell.Tab.5.left" timestamp="1604010001705">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1754" height="231" key="GridCell.Tab.5.left/72.27.1848.1053@72.27.1848.1053" timestamp="1604010001705" />
+    <state width="1754" height="231" key="GridCell.Tab.5.right" timestamp="1604010001707">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1754" height="231" key="GridCell.Tab.5.right/72.27.1848.1053@72.27.1848.1053" timestamp="1604010001707" />
+    <state width="1754" height="231" key="GridCell.Tab.6.bottom" timestamp="1604010002950">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1754" height="231" key="GridCell.Tab.6.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1604010002950" />
+    <state width="1754" height="231" key="GridCell.Tab.6.center" timestamp="1604010002949">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1754" height="231" key="GridCell.Tab.6.center/72.27.1848.1053@72.27.1848.1053" timestamp="1604010002949" />
+    <state width="1754" height="231" key="GridCell.Tab.6.left" timestamp="1604010002947">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1754" height="231" key="GridCell.Tab.6.left/72.27.1848.1053@72.27.1848.1053" timestamp="1604010002947" />
+    <state width="1754" height="231" key="GridCell.Tab.6.right" timestamp="1604010002949">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1754" height="231" key="GridCell.Tab.6.right/72.27.1848.1053@72.27.1848.1053" timestamp="1604010002949" />
+    <state width="1240" height="275" key="GridCell.Tab.8.bottom" timestamp="1603914389194">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.8.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1603914389194" />
+    <state width="1240" height="275" key="GridCell.Tab.8.center" timestamp="1603914389192">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.8.center/72.27.1848.1053@72.27.1848.1053" timestamp="1603914389192" />
+    <state width="1240" height="275" key="GridCell.Tab.8.left" timestamp="1603914389190">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.8.left/72.27.1848.1053@72.27.1848.1053" timestamp="1603914389190" />
+    <state width="1240" height="275" key="GridCell.Tab.8.right" timestamp="1603914389193">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.8.right/72.27.1848.1053@72.27.1848.1053" timestamp="1603914389193" />
+    <state width="1240" height="275" key="GridCell.Tab.9.bottom" timestamp="1603914389643">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.9.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1603914389643" />
+    <state width="1240" height="275" key="GridCell.Tab.9.center" timestamp="1603914389642">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.9.center/72.27.1848.1053@72.27.1848.1053" timestamp="1603914389642" />
+    <state width="1240" height="275" key="GridCell.Tab.9.left" timestamp="1603914389641">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.9.left/72.27.1848.1053@72.27.1848.1053" timestamp="1603914389641" />
+    <state width="1240" height="275" key="GridCell.Tab.9.right" timestamp="1603914389642">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1240" height="275" key="GridCell.Tab.9.right/72.27.1848.1053@72.27.1848.1053" timestamp="1603914389642" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1603842191237">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1603842191237" />
+    <state width="924" height="526" key="XDebugger.FullValuePopup" timestamp="1604016528696">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="924" height="526" key="XDebugger.FullValuePopup/72.27.1848.1053@72.27.1848.1053" timestamp="1604016528696" />
+    <state x="777" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604002701672">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="777" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053" timestamp="1604002701672" />
+    <state x="660" y="252" key="run.anything.popup" timestamp="1603928090376">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1603928090376" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1604015868792">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1604015868792" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/web/FrontServlet.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/web/FrontServlet.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
