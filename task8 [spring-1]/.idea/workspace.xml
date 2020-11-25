@@ -23,713 +23,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca788952-eb13-41c3-82a4-4b67aadd68eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../task2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/.idea/task2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/codeforces-layout-search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-1-codeforces-layout-search/nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/codeforces-layout-datatable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-2-codeforces-layout-datatable/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/codeforces-layout-blog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-3-codeforces-layout-blog/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/codeforces-layout-login-form.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/2-4-codeforces-layout-login-form/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task2/_layout/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/artifacts/wp31_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/artifacts/wp31_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__com_github_mjeanroy_junit_servers_core_0_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__com_github_mjeanroy_junit_servers_tomcat_0_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__com_google_code_gson_gson_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_tomcat_api_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_el_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_scan_8_5_32.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/ru/itmo/wp/servlet/CaptchaFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/ru/itmo/wp/servlet/DelayedHttpServletResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/ru/itmo/wp/servlet/GzipFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/ru/itmo/wp/servlet/MessageServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/ru/itmo/wp/servlet/StaticServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/ru/itmo/wp/util/ImageUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/css/b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/css/g.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/css/r.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/img/itmo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/img/itmo_ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/js/jquery-1.8.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/webapp/static/messages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/test/java/TestUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/test/java/TestsA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/test/java/TestsB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$ServletOutputStreamWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/classes/ru/itmo/wp/servlet/GzipFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/classes/ru/itmo/wp/servlet/MessageServlet$UserTextPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/classes/ru/itmo/wp/servlet/MessageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/classes/ru/itmo/wp/servlet/StaticServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/classes/ru/itmo/wp/util/ImageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/test-classes/TestUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/test-classes/TestsA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/test-classes/TestsB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/CaptchaFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse$ServletOutputStreamWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/DelayedHttpServletResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/GzipFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/MessageServlet$UserTextPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/MessageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/WEB-INF/classes/ru/itmo/wp/servlet/StaticServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/WEB-INF/classes/ru/itmo/wp/util/ImageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/WEB-INF/lib/gson-2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/css/b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/css/g.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/css/r.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/img/itmo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/img/itmo_ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/js/jquery-1.8.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/target/wp31/static/messages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/wp31.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/artifacts/lesson4_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/artifacts/lesson4_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/lesson4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/java/freemarker_implicit.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/java/ru/itmo/web/lesson4/model/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/java/ru/itmo/web/lesson4/model/Post.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/java/ru/itmo/web/lesson4/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/java/ru/itmo/web/lesson4/util/DataUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/java/ru/itmo/web/lesson4/web/FreemarkerServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/java/ru/itmo/web/lesson4/web/StaticServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/404.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/common.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/enter.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/index.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/misc/help.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/post.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/posts.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/register.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/table.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/user.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/templates/users.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/css/post.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/css/table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/css/user.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/img/codeforces-vs-coronavirus-65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/img/no-title.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/src/main/webapp/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/classes/ru/itmo/web/lesson4/model/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/classes/ru/itmo/web/lesson4/model/Post.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/classes/ru/itmo/web/lesson4/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/classes/ru/itmo/web/lesson4/util/DataUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/classes/ru/itmo/web/lesson4/web/FreemarkerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/classes/ru/itmo/web/lesson4/web/StaticServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/classes/ru/itmo/web/lesson4/model/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/classes/ru/itmo/web/lesson4/model/Post.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/classes/ru/itmo/web/lesson4/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/classes/ru/itmo/web/lesson4/util/DataUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/classes/ru/itmo/web/lesson4/web/FreemarkerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/classes/ru/itmo/web/lesson4/web/StaticServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/lib/freemarker-2.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/404.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/common.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/enter.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/index.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/misc/help.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/post.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/posts.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/register.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/table.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/user.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/templates/users.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/css/post.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/css/table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/css/user.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/img/codeforces-vs-coronavirus-65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/img/no-title.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task4/target/lesson4/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/artifacts/lesson5_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/artifacts/lesson5_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/lesson5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/FrontServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/StaticFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/exception/NotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/exception/RedirectException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/page/IndexPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/page/NotFoundPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/page/TicTacToePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/java/ru/itmo/wp/web/page/misc/HelpPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/WEB-INF/templates/HelpPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/WEB-INF/templates/IndexPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/WEB-INF/templates/IndexPage_ru.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/WEB-INF/templates/NotFoundPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/WEB-INF/templates/TicTacToePage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/WEB-INF/templates/common.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/css/datatable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/css/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/css/tictactoe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/img/codeforces-vs-coronavirus-65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/src/main/webapp/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/FrontServlet$Route.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/FrontServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/StaticFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/exception/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/exception/RedirectException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/IndexPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/NotFoundPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/TicTacToePage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/TicTacToePage$Phase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/TicTacToePage$State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/TicTacToePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/classes/ru/itmo/wp/web/page/misc/HelpPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/FrontServlet$Route.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/FrontServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/StaticFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/exception/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/exception/RedirectException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/IndexPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/NotFoundPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/TicTacToePage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/TicTacToePage$Phase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/TicTacToePage$State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/TicTacToePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/classes/ru/itmo/wp/web/page/misc/HelpPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/lib/checker-qual-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/lib/error_prone_annotations-2.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/lib/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/lib/freemarker-2.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/lib/guava-29.0-jre.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/lib/j2objc-annotations-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/lib/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/templates/HelpPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/templates/IndexPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/templates/IndexPage_ru.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/templates/NotFoundPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/templates/TicTacToePage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/templates/common.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/css/datatable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/css/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/css/tictactoe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/img/codeforces-vs-coronavirus-65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task5/target/lesson5/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/artifacts/lesson6_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/artifacts/lesson6_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/libraries/Maven__com_google_guava_guava_30_0_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/lesson6.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/profile.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/database/DatabaseUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/domain/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/domain/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/exception/RepositoryException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/exception/ValidationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/repository/EventRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/repository/MessageRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/repository/impl/BasicRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/repository/impl/EventRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/repository/impl/MessageRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/repository/impl/UserRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/service/EventService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/service/MessageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/model/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/FrontServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/StaticFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/exception/NotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/exception/RedirectException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/page/EnterPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/page/IndexPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/page/LogoutPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/page/NotFoundPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/page/Page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/page/RegisterPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/page/TalksPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/java/ru/itmo/wp/web/page/UsersPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/WEB-INF/templates/EnterPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/WEB-INF/templates/IndexPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/WEB-INF/templates/NotFoundPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/WEB-INF/templates/RegisterPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/WEB-INF/templates/TalksPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/WEB-INF/templates/UsersPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/WEB-INF/templates/commons.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/css/datatable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/css/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/src/main/webapp/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/database/DatabaseUtils$DataSourceHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/database/DatabaseUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/domain/Event$Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/domain/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/domain/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/exception/RepositoryException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/exception/ValidationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/repository/EventRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/repository/MessageRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/repository/impl/BasicRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/repository/impl/EventRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/repository/impl/MessageRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/repository/impl/UserRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/service/EventService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/service/MessageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/model/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/FrontServlet$Route.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/FrontServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/StaticFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/exception/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/exception/RedirectException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/page/EnterPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/page/IndexPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/page/LogoutPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/page/NotFoundPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/page/Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/page/RegisterPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/page/TalksPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/classes/ru/itmo/wp/web/page/UsersPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/database/DatabaseUtils$DataSourceHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/database/DatabaseUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/domain/Event$Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/domain/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/domain/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/exception/RepositoryException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/exception/ValidationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/repository/EventRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/repository/MessageRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/repository/impl/BasicRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/repository/impl/EventRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/repository/impl/MessageRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/repository/impl/UserRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/service/EventService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/service/MessageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/model/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/FrontServlet$Route.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/FrontServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/StaticFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/exception/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/exception/RedirectException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/page/EnterPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/page/IndexPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/page/LogoutPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/page/NotFoundPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/page/Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/page/RegisterPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/page/TalksPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/classes/ru/itmo/wp/web/page/UsersPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/lib/checker-qual-3.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/lib/error_prone_annotations-2.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/lib/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/lib/freemarker-2.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/lib/guava-30.0-jre.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/lib/j2objc-annotations-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/lib/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/lib/mariadb-java-client-2.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/templates/EnterPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/templates/IndexPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/templates/NotFoundPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/templates/RegisterPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/templates/TalksPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/templates/UsersPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/templates/commons.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/css/datatable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/css/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/lesson6/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/artifacts/lesson7_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/artifacts/lesson7_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__com_google_guava_guava_28_1_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__org_checkerframework_checker_qual_2_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/templateLanguages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/lesson7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/profile.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/model/database/DatabaseUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/model/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/model/exception/RepositoryException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/model/exception/ValidationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/model/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/model/repository/impl/UserRepositoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/model/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/FrontServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/StaticFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/annotation/Json.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/exception/NotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/exception/RedirectException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/page/EnterPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/page/IndexPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/page/LogoutPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/page/NotFoundPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/page/RegisterPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/java/ru/itmo/wp/web/page/UsersPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/EnterPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/IndexPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/NotFoundPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/RegisterPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/UsersPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/templates/commons.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/css/datatable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/css/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/js/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/src/main/webapp/js/notify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/model/database/DatabaseUtils$DataSourceHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/model/database/DatabaseUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/model/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/model/exception/RepositoryException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/model/exception/ValidationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/model/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/model/repository/impl/UserRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/model/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/FrontServlet$Route.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/FrontServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/StaticFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/annotation/Json.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/exception/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/exception/RedirectException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/page/EnterPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/page/IndexPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/page/LogoutPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/page/NotFoundPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/page/RegisterPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/classes/ru/itmo/wp/web/page/UsersPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/model/database/DatabaseUtils$DataSourceHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/model/database/DatabaseUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/model/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/model/exception/RepositoryException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/model/exception/ValidationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/model/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/model/repository/impl/UserRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/model/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/FrontServlet$Route.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/FrontServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/StaticFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/annotation/Json.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/exception/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/exception/RedirectException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/page/EnterPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/page/IndexPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/page/LogoutPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/page/NotFoundPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/page/RegisterPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/classes/ru/itmo/wp/web/page/UsersPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/lib/animal-sniffer-annotations-1.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/lib/checker-qual-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/lib/error_prone_annotations-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/lib/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/lib/freemarker-2.3.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/lib/guava-28.1-jre.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/lib/j2objc-annotations-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/lib/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/lib/mariadb-java-client-2.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/EnterPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/IndexPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/NotFoundPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/RegisterPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/UsersPage.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/templates/commons.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/css/datatable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/css/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/img/comments_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/img/date_16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/img/gb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/img/paperclip-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/img/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/img/search-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/img/votedown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/img/voteup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/js/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/lesson7/js/notify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task7/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/NoticePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/NoticePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/UsersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/domain/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/domain/Notice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/form/NoticeCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/form/NoticeCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/form/validator/NoticeCredentialsValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/repository/NoticeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/repository/NoticeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/service/NoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/service/NoticeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/UserPage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/UserPage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/UsersPage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/UsersPage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/WpApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/WpApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/EnterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/EnterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/IndexPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/IndexPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/NoticePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/NoticePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/UserPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/UserPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/UsersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/UsersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/domain/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/domain/Notice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/NoticeCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/NoticeCredentials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/UserCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/UserCredentials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/validator/NoticeCredentialsValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/validator/NoticeCredentialsValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/validator/UserCredentialsRegisterValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/validator/UserCredentialsRegisterValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/repository/NoticeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/repository/NoticeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/service/NoticeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/service/NoticeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/UserPage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/UserPage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/UsersPage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/UsersPage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wp.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -765,23 +98,13 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="wp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.itmo.wp.WpApplication" />
@@ -799,6 +122,10 @@
       <option name="presentableId" value="Default" />
       <updated>1605392353770</updated>
       <workItem from="1605392354791" duration="10857000" />
+      <workItem from="1605610961724" duration="6830000" />
+      <workItem from="1605647880552" duration="632000" />
+      <workItem from="1605860436201" duration="8767000" />
+      <workItem from="1606328694701" duration="111000" />
     </task>
     <servers />
   </component>
@@ -818,74 +145,78 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1605452417435">
+    <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1605614167892">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1605452417435" />
+    <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1605614167892" />
     <state x="749" y="448" width="494" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605393419237">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="749" y="448" width="494" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/72.27.1848.1053@72.27.1848.1053" timestamp="1605393419236" />
-    <state x="615" y="122" width="742" height="878" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605453721884">
+    <state x="615" y="122" width="742" height="878" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605613610287">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="615" y="122" width="742" height="878" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605453721884" />
-    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605451370135">
+    <state x="615" y="122" width="742" height="878" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605613610287" />
+    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606328727592">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605451370135" />
-    <state x="754" y="298" key="#xdebugger.evaluate" timestamp="1605449998904">
+    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606328727592" />
+    <state x="754" y="298" key="#xdebugger.evaluate" timestamp="1605870819914">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="754" y="298" key="#xdebugger.evaluate/72.27.1848.1053@72.27.1848.1053" timestamp="1605449998904" />
-    <state width="1802" height="340" key="GridCell.Tab.0.bottom" timestamp="1605454618748">
+    <state x="754" y="298" key="#xdebugger.evaluate/72.27.1848.1053@72.27.1848.1053" timestamp="1605870819914" />
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605647911254">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618748" />
-    <state width="1802" height="340" key="GridCell.Tab.0.center" timestamp="1605454618747">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1605647911254" />
+    <state width="1802" height="279" key="GridCell.Tab.0.bottom" timestamp="1605903850179">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618747" />
-    <state width="1802" height="340" key="GridCell.Tab.0.left" timestamp="1605454618747">
+    <state width="1802" height="279" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850179" />
+    <state width="1802" height="279" key="GridCell.Tab.0.center" timestamp="1605903850179">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618747" />
-    <state width="1802" height="340" key="GridCell.Tab.0.right" timestamp="1605454618747">
+    <state width="1802" height="279" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850179" />
+    <state width="1802" height="279" key="GridCell.Tab.0.left" timestamp="1605903850178">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618747" />
-    <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1605454618614">
+    <state width="1802" height="279" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850178" />
+    <state width="1802" height="279" key="GridCell.Tab.0.right" timestamp="1605903850179">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618614" />
-    <state width="1802" height="340" key="GridCell.Tab.1.center" timestamp="1605454618614">
+    <state width="1802" height="279" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850179" />
+    <state width="1802" height="279" key="GridCell.Tab.1.bottom" timestamp="1605903850180">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618614" />
-    <state width="1802" height="340" key="GridCell.Tab.1.left" timestamp="1605454618613">
+    <state width="1802" height="279" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850180" />
+    <state width="1802" height="279" key="GridCell.Tab.1.center" timestamp="1605903850180">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618613" />
-    <state width="1802" height="340" key="GridCell.Tab.1.right" timestamp="1605454618614">
+    <state width="1802" height="279" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850180" />
+    <state width="1802" height="279" key="GridCell.Tab.1.left" timestamp="1605903850179">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618614" />
-    <state width="1802" height="340" key="GridCell.Tab.2.bottom" timestamp="1605454618615">
+    <state width="1802" height="279" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850179" />
+    <state width="1802" height="279" key="GridCell.Tab.1.right" timestamp="1605903850180">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.2.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618615" />
-    <state width="1802" height="340" key="GridCell.Tab.2.center" timestamp="1605454618614">
+    <state width="1802" height="279" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850180" />
+    <state width="1802" height="279" key="GridCell.Tab.2.bottom" timestamp="1605903850181">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.2.center/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618614" />
-    <state width="1802" height="340" key="GridCell.Tab.2.left" timestamp="1605454618614">
+    <state width="1802" height="279" key="GridCell.Tab.2.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850181" />
+    <state width="1802" height="279" key="GridCell.Tab.2.center" timestamp="1605903850180">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.2.left/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618614" />
-    <state width="1802" height="340" key="GridCell.Tab.2.right" timestamp="1605454618615">
+    <state width="1802" height="279" key="GridCell.Tab.2.center/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850180" />
+    <state width="1802" height="279" key="GridCell.Tab.2.left" timestamp="1605903850180">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.2.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605454618615" />
+    <state width="1802" height="279" key="GridCell.Tab.2.left/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850180" />
+    <state width="1802" height="279" key="GridCell.Tab.2.right" timestamp="1605903850181">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="279" key="GridCell.Tab.2.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605903850181" />
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1605394134882">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -894,25 +225,55 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1605396451675" />
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1605451488742">
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1606328719508">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1605451488742" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606328719508" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/UserPage.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/UsersPage.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/RegisterPage.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/UsersPage.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/EnterPage.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/EnterPage.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/EnterPage.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder" memberName="fieldDefaultPrefix" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

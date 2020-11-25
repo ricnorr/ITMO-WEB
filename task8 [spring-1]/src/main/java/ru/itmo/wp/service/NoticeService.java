@@ -16,7 +16,7 @@ public class NoticeService {
     }
 
     public List<Notice> findAll() {
-        return noticeRepository.findAll();
+        return noticeRepository.findAllByOrderByIdDesc();
     }
 
     public Notice save(NoticeCredentials noticeCredentials) {

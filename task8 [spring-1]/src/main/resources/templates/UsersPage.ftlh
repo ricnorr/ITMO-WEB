@@ -10,12 +10,13 @@
                 <th>Id</th>
                 <th>Login</th>
                 <th>Created</th>
+                <th>Action</th>
             </tr>
             </thead>
             <tbody>
             <#if users?size==0>
                 <tr class="noData">
-                    <td colspan="3">
+                    <td colspan="4">
                         No data
                     </td>
                 </tr>
@@ -25,6 +26,16 @@
                     <td class="id">${user.id}</td>
                     <td class="login">${user.login}</td>
                     <td class="creationTime">${user.creationTime}</td>
+                    <td class ="button">
+                        <form class = "button-field" method="post">
+                            <#if user.disabled>
+                                <input type="submit" name="action" value="enable">
+                            <#else>
+                                <input type="submit" name="action" value="disable">
+                            </#if>
+                            <input type="hidden" name="id" value="${user.id}">
+                        </form>
+                    </td>
                 </tr>
                 </#list>
             </#if>

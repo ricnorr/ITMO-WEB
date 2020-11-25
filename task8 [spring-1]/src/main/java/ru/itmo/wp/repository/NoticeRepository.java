@@ -10,8 +10,8 @@ import ru.itmo.wp.domain.User;
 import java.util.List;
 
 public interface NoticeRepository extends JpaRepository<Notice, Long> {
-    User findById(long id);
+    Notice findById(long id);
 
-    List<User> findAllByOrderByIdDesc();
+    List<Notice> findAllByOrderByIdDesc();
 
 }

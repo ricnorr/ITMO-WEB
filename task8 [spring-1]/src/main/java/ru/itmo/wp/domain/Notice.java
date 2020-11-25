@@ -5,6 +5,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 @Entity
@@ -12,7 +13,6 @@ import java.util.Date;
         indexes = @Index(columnList = "creationTime")
 )
 public class Notice {
-    //id, content (используйте аннотацию @Lob), creationTime
     @Id
     @GeneratedValue
     private long id;
@@ -20,6 +20,7 @@ public class Notice {
     @NotNull
     @NotEmpty
     @Lob
+    @Size(min = 1, max = 50)
     private String content;
 
     @CreationTimestamp

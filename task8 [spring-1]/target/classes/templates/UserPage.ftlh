@@ -5,8 +5,8 @@
     <#if error??>
         <div class="message">${error}</div>
     <#else>
-        <div class="id">${user.id!} </div>
-        <div class="login">${user.login!} </div>
-        <div class="creationTime">${user.creationTime!} </div>
+        <div class="id">${userInfo.id!} </div>
+        <div class="login">${userInfo.login!} </div>
+        <div class="creationTime">${userInfo.creationTime!} </div>
     </#if>
 </@c.page>

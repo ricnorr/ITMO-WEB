@@ -38,4 +38,12 @@ public class UserService {
     public List<User> findAll() {
         return userRepository.findAllByOrderByIdDesc();
     }
+
+    public void setDisabledTrue(long id) {
+        userRepository.updateDisabled(id, true);
+    }
+
+    public void setDisabledFalse(long id) {
+        userRepository.updateDisabled(id, false);
+    }
 }

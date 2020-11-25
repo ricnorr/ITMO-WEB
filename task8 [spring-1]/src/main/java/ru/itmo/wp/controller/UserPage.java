@@ -5,10 +5,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import ru.itmo.wp.domain.User;
-import ru.itmo.wp.service.NoticeService;
 import ru.itmo.wp.service.UserService;
 
 import javax.servlet.http.HttpSession;
+import javax.validation.constraints.NotNull;
 
 @Controller
 public class UserPage extends Page {
@@ -26,17 +26,27 @@ public class UserPage extends Page {
     }
 
     @GetMapping({"/user/{userId}"})
-    public String user(Model model, @PathVariable("userId") Long userId, HttpSession session) {
+    public String user(Model model, @PathVariable("userId") String userIdString, HttpSession session) {
         getAllNotices(session);
-        if (userId == null) {
+        Long userId;
+        if (userIdString == null) {
+            return "redirect:" + USER_PAGE_ERROR_URL;
+        }
+        try {
+            userId = Long.valueOf(userIdString);
+        } catch (NumberFormatException e) {
             return "redirect:" + USER_PAGE_ERROR_URL;
         }
         User user = userService.findById(userId);
         if (user == null) {
             return "redirect:" + USER_PAGE_ERROR_URL;
-        } else {
-            model.addAttribute("user", userService.findById(userId));
-            return "UserPage";
         }
+        model.addAttribute("userInfo", userService.findById(userId));
+        return "UserPage";
+    }
+
+    @GetMapping({"/user/"})
+    public String user(Model model) {
+        return "redirect:" + USER_PAGE_ERROR_URL;
     }
 }

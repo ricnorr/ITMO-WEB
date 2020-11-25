@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="wp" target="8" />
+      <module name="wp" target="9" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
