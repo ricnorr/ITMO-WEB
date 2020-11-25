@@ -1,42 +1,52 @@
 package ru.itmo.wp.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.WebDataBinder;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.InitBinder;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import ru.itmo.wp.domain.User;
-import ru.itmo.wp.form.validator.UserCredentialsEnterValidator;
-import ru.itmo.wp.form.validator.UserIdValidator;
 import ru.itmo.wp.service.UserService;
 
 import javax.servlet.http.HttpSession;
-import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
 
 @Controller
 public class UserPage extends Page {
     private final UserService userService;
-    //private final UserIdValidator userIdValidator;
+    private final String USER_PAGE_ERROR_URL = "/user/error";
 
-    public UserPage(UserService userService, UserIdValidator userIdValidator) {
+    public UserPage(UserService userService) {
         this.userService = userService;
-        //this.userIdValidator = userIdValidator;
     }
 
-    /* @InitBinder
-    public void initBinder(WebDataBinder webDataBinder) {
-        webDataBinder.addValidators(userIdValidator);
-    } */
-
+    @GetMapping({"/user/error"})
+    public String error(Model model) {
+        model.addAttribute("error", "No such user");
+        return "UserPage";
+    }
 
     @GetMapping({"/user/{userId}"})
-    public String user(@Valid @ModelAttribute("user") @PathVariable("userId") User user, HttpSession httpSession) {
-        /* if (bindingResult.hasErrors()) {
-            return "UserPage";
-        } */
-        setUser(httpSession, user);
+    public String user(Model model, @PathVariable("userId") String userIdString, HttpSession session) {
+        getAllNotices(session);
+        Long userId;
+        if (userIdString == null) {
+            return "redirect:" + USER_PAGE_ERROR_URL;
+        }
+        try {
+            userId = Long.valueOf(userIdString);
+        } catch (NumberFormatException e) {
+            return "redirect:" + USER_PAGE_ERROR_URL;
+        }
+        User user = userService.findById(userId);
+        if (user == null) {
+            return "redirect:" + USER_PAGE_ERROR_URL;
+        }
+        model.addAttribute("userInfo", userService.findById(userId));
         return "UserPage";
+    }
+
+    @GetMapping({"/user/"})
+    public String user(Model model) {
+        return "redirect:" + USER_PAGE_ERROR_URL;
     }
 }

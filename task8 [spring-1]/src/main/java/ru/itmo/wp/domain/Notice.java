@@ -1,33 +1,30 @@
 package ru.itmo.wp.domain;
 
 import org.hibernate.annotations.CreationTimestamp;
-import org.springframework.boot.context.properties.bind.DefaultValue;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
-@SuppressWarnings("unused")
 @Entity
 @Table(
-        indexes = @Index(columnList = "creationTime, disabled"),
-        uniqueConstraints = @UniqueConstraint(columnNames = "login")
+        indexes = @Index(columnList = "creationTime")
 )
-public class User {
+public class Notice {
     @Id
     @GeneratedValue
     private long id;
 
     @NotNull
     @NotEmpty
-    private String login;
+    @Lob
+    @Size(min = 1, max = 50)
+    private String content;
 
     @CreationTimestamp
     private Date creationTime;
-
-    @Column(columnDefinition = "boolean default false")
-    private boolean disabled;
 
     public long getId() {
         return id;
@@ -37,12 +34,12 @@ public class User {
         this.id = id;
     }
 
-    public String getLogin() {
-        return login;
+    public String getContent() {
+        return content;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
+    public void setContent(String login) {
+        this.content = login;
     }
 
     public Date getCreationTime() {
@@ -52,13 +49,4 @@ public class User {
     public void setCreationTime(Date creationTime) {
         this.creationTime = creationTime;
     }
-
-    public void setDisabled(boolean disabled) {
-        this.disabled = disabled;
-    }
-
-    public boolean getDisabled() {
-        return this.disabled;
-    }
-
 }

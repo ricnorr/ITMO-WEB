@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import ru.itmo.wp.form.UserCredentials;
 import ru.itmo.wp.form.validator.UserCredentialsRegisterValidator;
+import ru.itmo.wp.service.NoticeService;
 import ru.itmo.wp.service.UserService;
 
 import javax.servlet.http.HttpSession;
@@ -31,7 +32,8 @@ public class RegisterPage extends Page {
     }
 
     @GetMapping("/register")
-    public String registerGet(Model model) {
+    public String registerGet(Model model, HttpSession session) {
+        getAllNotices(session);
         model.addAttribute("registerForm", new UserCredentials());
         return "RegisterPage";
     }
@@ -43,7 +45,6 @@ public class RegisterPage extends Page {
         if (bindingResult.hasErrors()) {
             return "RegisterPage";
         }
-
         setUser(httpSession, userService.register(registerForm));
         putMessage(httpSession, "Congrats, you have been registered!");
 
