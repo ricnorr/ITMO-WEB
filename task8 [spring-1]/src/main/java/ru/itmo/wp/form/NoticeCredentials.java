@@ -10,7 +10,6 @@ public class NoticeCredentials {
     @NotNull
     @NotEmpty
     @Size(min = 1, max = 50)
-    @Lob
     private String content;
 
     public String getContent() {

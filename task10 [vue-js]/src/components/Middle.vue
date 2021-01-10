@@ -2,7 +2,7 @@
     <div class="middle">
         <Sidebar :posts="viewPosts"/>
         <main>
-            <Index v-if="page === 'Index'" :posts="viewAllPosts" :comments="viewComments"/>
+            <Index v-if="page === 'Index'" :posts="viewAllPosts" :commentsCount="commentsCount"/>
             <Enter v-if="page === 'Enter'"/>
             <WritePost v-if="page === 'WritePost'"/>
             <EditPost v-if="page === 'EditPost'"/>
@@ -37,7 +37,7 @@ export default {
         Register,
         Users
     },
-    props: ["posts", "users", "comments"],
+    props: ["posts", "users", "commentsCount"],
     computed: {
         viewPosts: function () {
             return Object.values(this.posts).sort((a, b) => b.id - a.id).slice(0, 2);
@@ -47,9 +47,6 @@ export default {
         },
         viewUsers: function () {
           return Object.values(this.users).sort((a, b) => a.id - b.id);
-        },
-        viewComments: function() {
-          return Object.values(this.comments).sort((a, b) => (a.id - b.id));
         }
     }, beforeCreate() {
         this.$root.$on("onChangePage", (page) => this.page = page)

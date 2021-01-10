@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:source" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ffd21fe-f923-4d62-9268-1b74a8785f34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/babel-loader/0fe4ebe8dda386273be58159cca03340.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/babel-loader/0fe4ebe8dda386273be58159cca03340.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/babel-loader/8a3cd1c54174b9a6a1c0efdd3268e071.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/babel-loader/8a3cd1c54174b9a6a1c0efdd3268e071.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/babel-loader/b0f6a50a7f59b8a8ff3e018d57a38cf9.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/babel-loader/b0f6a50a7f59b8a8ff3e018d57a38cf9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/babel-loader/dc57ef428919450450eec98d466b7453.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/babel-loader/dc57ef428919450450eec98d466b7453.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/0212d2cb82544c14eaf18f778b2ff679.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/0212d2cb82544c14eaf18f778b2ff679.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/0d47664d22689341dbc10f62cba841b7.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/0d47664d22689341dbc10f62cba841b7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/21aa8f7a493ad7c9ba3830d5b399461a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/21aa8f7a493ad7c9ba3830d5b399461a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/21df3652a231fdd7ec4867c2a94374ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/21df3652a231fdd7ec4867c2a94374ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/30ad3181cc76bf3524278c7167cf941a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/30ad3181cc76bf3524278c7167cf941a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/461502339e240421f4dd57c646a8091a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/461502339e240421f4dd57c646a8091a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/5a8eb748b601aeabf34538ff50c75bb5.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/5a8eb748b601aeabf34538ff50c75bb5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/5eb1aaa75468acbf0a593784c4c9eace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/5eb1aaa75468acbf0a593784c4c9eace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/6369c0ffef2d0f5a779fb29ee9a32690.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/6369c0ffef2d0f5a779fb29ee9a32690.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/76fa10d8f31444f44a75325c7f01c7ff.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/76fa10d8f31444f44a75325c7f01c7ff.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/78ee30186a7ce476cf94b0bf40e89db7.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/78ee30186a7ce476cf94b0bf40e89db7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/7d91bee5db9242d6ee2f07146e7d2f6d.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/7d91bee5db9242d6ee2f07146e7d2f6d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/7fce0b959947d4aac08ebd98445f916f.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/7fce0b959947d4aac08ebd98445f916f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/8d7b927afa096dcc9fb3c27ba3758afb.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/8d7b927afa096dcc9fb3c27ba3758afb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/94d7825568f28b74644c26fa54a1f5a5.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/94d7825568f28b74644c26fa54a1f5a5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/c04405c33b881d4e2c3b7d8627514f7e.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/c04405c33b881d4e2c3b7d8627514f7e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/e50bc1c2cd3c12e333e9878fa3d7ea5a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/node_modules/.cache/vue-loader/e50bc1c2cd3c12e333e9878fa3d7ea5a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/src/components/middle/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../task10 [vue-js]/src/components/middle/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10 [vue-js]/src/components/middle/IndexPost.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task8 [spring-1]/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task8 [spring-1]/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task8 [spring-1]/src/main/java/ru/itmo/wp/form/NoticeCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/../task8 [spring-1]/src/main/java/ru/itmo/wp/form/NoticeCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task8 [spring-1]/target/classes/ru/itmo/wp/controller/NoticePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task8 [spring-1]/target/classes/ru/itmo/wp/controller/NoticePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task8 [spring-1]/target/classes/ru/itmo/wp/form/validator/NoticeCredentialsValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task8 [spring-1]/target/classes/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../task8 [spring-1]/target/classes/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Без имени 1" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1knGfpD85AmbwSDjW78fqwNSotw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.71609193" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="WpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="task9 [mappings]" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.itmo.wp.WpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ffd21fe-f923-4d62-9268-1b74a8785f34" name="Default Changelist" comment="" />
+      <created>1606329048392</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606329048392</updated>
+      <workItem from="1606329049476" duration="463000" />
+      <workItem from="1606329528839" duration="512000" />
+      <workItem from="1606330053113" duration="270000" />
+      <workItem from="1606330626746" duration="628000" />
+      <workItem from="1606331435281" duration="10620000" />
+      <workItem from="1606375390781" duration="661000" />
+      <workItem from="1606384055857" duration="4964000" />
+      <workItem from="1606408654736" duration="13606000" />
+      <workItem from="1606472050986" duration="6929000" />
+      <workItem from="1606556501186" duration="598000" />
+      <workItem from="1606573736536" duration="611000" />
+      <workItem from="1607289331299" duration="98000" />
+      <workItem from="1607290739802" duration="1517000" />
+      <workItem from="1607434071766" duration="599000" />
+      <workItem from="1607522577711" duration="322000" />
+      <workItem from="1608042372079" duration="36000" />
+      <workItem from="1608057628941" duration="953000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="897" y="442" width="187" height="229" key="#Assign_Data_Sources" timestamp="1606415581356">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="897" y="442" width="187" height="229" key="#Assign_Data_Sources/72.27.1848.1053@72.27.1848.1053" timestamp="1606415581356" />
+    <state x="625" y="235" width="732" height="644" key="#Inspections" timestamp="1606479862342">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="625" y="235" width="732" height="644" key="#Inspections/72.27.1848.1053@72.27.1848.1053" timestamp="1606479862342" />
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1606329822620">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure/72.27.1848.1053@72.27.1848.1053" timestamp="1606329822620" />
+    <state x="454" y="211" width="1084" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606331038127">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="454" y="211" width="1084" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606331038127" />
+    <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1606479513264">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1606479513264" />
+    <state x="728" y="358" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606331019376">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="728" y="358" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606331019376" />
+    <state x="749" y="448" width="494" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606472724219">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="749" y="448" width="494" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/72.27.1848.1053@72.27.1848.1053" timestamp="1606472724219" />
+    <state x="784" y="27" width="414" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606479629829">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="784" y="27" width="414" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606479629829" />
+    <state x="849" y="569" key="#xdebugger.evaluate" timestamp="1606385905668">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="849" y="569" key="#xdebugger.evaluate/72.27.1848.1053@72.27.1848.1053" timestamp="1606385905668" />
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1607522897413">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1607522897413" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1606485303107">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606485303107" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1606485303107">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606485303107" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1606485303107">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606485303107" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1606485303107">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606485303107" />
+    <state width="1802" height="275" key="GridCell.Tab.1.bottom" timestamp="1606485303108">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606485303108" />
+    <state width="1802" height="275" key="GridCell.Tab.1.center" timestamp="1606485303108">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606485303108" />
+    <state width="1802" height="275" key="GridCell.Tab.1.left" timestamp="1606485303107">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606485303107" />
+    <state width="1802" height="275" key="GridCell.Tab.1.right" timestamp="1606485303108">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606485303108" />
+    <state width="1802" height="340" key="GridCell.Tab.2.bottom" timestamp="1606480271293">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.2.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606480271293" />
+    <state width="1802" height="340" key="GridCell.Tab.2.center" timestamp="1606480271292">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.2.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606480271292" />
+    <state width="1802" height="340" key="GridCell.Tab.2.left" timestamp="1606480271292">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.2.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606480271292" />
+    <state width="1802" height="340" key="GridCell.Tab.2.right" timestamp="1606480271292">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.2.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606480271292" />
+    <state x="479" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1606331207265">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="479" y="131" width="1024" height="852" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1606331207265" />
+    <state x="686" y="311" width="610" height="492" key="refactoring.ChangeSignatureDialog" timestamp="1606337511485">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="686" y="311" width="610" height="492" key="refactoring.ChangeSignatureDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606337511485" />
+    <state x="660" y="252" key="run.anything.popup" timestamp="1606421474264">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606421474264" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1606473680793">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606473680793" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/PostPage.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/PostPage.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/service/UserService.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

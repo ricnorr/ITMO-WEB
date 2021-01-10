@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header :userId="userId" :users="users"/>
-    <Middle :posts="posts" :users="users" :comments="comments"/>
+    <Middle :posts="posts" :users="users" :commentsCount="commentsCount"/>
     <Footer :usersCount="usersCount" :postsCount="postsCount"/>
   </div>
 </template>
@@ -27,7 +27,15 @@ export default {
     },
     postsCount: function () {
       return Object.values(this.posts).length;
+    },
+    commentsCount: function() {
+      let ans = {};
+      for (let e of Object.keys(this.posts)) {
+        ans[e] = Object.values(this.comments).filter(comment => e.toString() === comment.postId.toString()).length;
+      }
+      return ans;
     }
+
   },
   beforeCreate() {
     this.$root.$on("onEnter", (login, password) => {
@@ -87,17 +95,15 @@ export default {
 
     this.$root.$on( "onRegister", (login, name) => {
       if (!login || login.length < 3 || login.length > 16 || !login.match(/^[a-z]*$/) || Object.values(this.users).some(user => user.login === login)) {
-        this.$root.$emit("onRegisterValidationError", "Login must be unique and consist of 3..16 latin letters ");
-        return;
+        this.$root.$emit("onRegisterValidationError", "Login must be unique and consist of 3..16 lowercase latin letters ");
       } else if (!name || name.length < 1 || name.length > 32) {
         this.$root.$emit("onRegisterValidationError", "Name must have only 1..32 letters");
-        return;
       } else {
         const id = Math.max(...Object.keys(this.users)) + 1;
         this.$root.$set(this.users, id, {
           id, login, name
         });
-        this.$root.$emit("onChangePage", "Index");
+        this.$root.$emit("onChangePage", "Enter");
       }
     })
   }

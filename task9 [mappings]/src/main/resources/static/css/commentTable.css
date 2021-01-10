@@ -1,0 +1,10 @@
+main .post-page .comment-table {
+    margin-top: 2rem;
+    text-align: center;
+    border: 1px #E1E1E1 solid;
+}
+
+main .post-page .comment-table td, th {
+    padding: 1.5rem;
+    border: 1px #E1E1E1 solid;
+}
